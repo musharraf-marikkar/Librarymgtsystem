@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Library management system"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".serachBooks" />
+        <activity android:name=".lending" />
+        <activity android:name=".manageBranch" />
+        <activity android:name=".managePublisher" />
+        <activity android:name=".manageBooks" />
+        <activity android:name=".memberMenu" />
+        <activity android:name=".memberLogin" />
+        <activity android:name=".adminLogin" />
+        <activity android:name=".signup" />
+        <activity android:name=".adminMenu" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
